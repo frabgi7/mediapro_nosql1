@@ -1,0 +1,206 @@
+[
+    {
+        "_id": 1,
+        "nombres": "Andres",
+        "apellidos": "Parra",
+        "doc_identidad": "1012345678",
+        "fecha_nacimiento": {
+            "$date": "1977-09-18T00:00:00Z"
+        },
+        "representante": "Agencia TALENTO S.A.",
+        "perfil_artistico": {
+            "caracteristicas_fisicas": "1.78m, tez trigueña, ojos cafes",
+            "habilidades_especiales": "Acento paisa, artes marciales",
+            "trabajos_previos": "El Patron del Mal"
+        },
+        "disponibilidad": "disponible",
+        "categoria_sindical": "Actores Principales",
+        "cache": {
+            "$numberDecimal": "5000.00"
+        }
+    },
+    {
+        "_id": 2,
+        "nombres": "Natalia",
+        "apellidos": "Reyes",
+        "doc_identidad": "1098765432",
+        "fecha_nacimiento": {
+            "$date": "1987-08-16T00:00:00Z"
+        },
+        "representante": "Latam Management",
+        "perfil_artistico": {
+            "caracteristicas_fisicas": "1.65m, tez blanca, cabello castaño",
+            "habilidades_especiales": "Ingles fluido, danza contemporanea",
+            "trabajos_previos": "Terminator Dark Fate"
+        },
+        "disponibilidad": "disponible",
+        "categoria_sindical": "Actores Principales",
+        "cache": {
+            "$numberDecimal": "4500.00"
+        }
+    },
+    {
+        "_id": 3,
+        "nombres": "Margarita",
+        "apellidos": "Rosa",
+        "doc_identidad": "1023456789",
+        "fecha_nacimiento": {
+            "$date": {
+                "$numberLong": "-135302400000"
+            }
+        },
+        "representante": "MAM Talent",
+        "perfil_artistico": {
+            "caracteristicas_fisicas": "1.70m, tez blanca, rubia",
+            "habilidades_especiales": "Canto, equitacion",
+            "trabajos_previos": "Cafe con aroma de mujer"
+        },
+        "disponibilidad": "ocupado",
+        "categoria_sindical": "Primera Categoria",
+        "cache": {
+            "$numberDecimal": "6000.00"
+        }
+    },
+    {
+        "_id": 4,
+        "nombres": "Christian",
+        "apellidos": "Tappan",
+        "doc_identidad": "1087654321",
+        "fecha_nacimiento": {
+            "$date": "1972-02-19T00:00:00Z"
+        },
+        "representante": "Agencia TALENTO S.A.",
+        "perfil_artistico": {
+            "caracteristicas_fisicas": "1.80m, tez trigueña, con barba",
+            "habilidades_especiales": "Acento neutro, conduccion de riesgo",
+            "trabajos_previos": "Distrito Salvaje"
+        },
+        "disponibilidad": "disponible",
+        "categoria_sindical": "Actores Principales",
+        "cache": {
+            "$numberDecimal": "4000.00"
+        }
+    },
+    {
+        "_id": 5,
+        "nombres": "Carolina",
+        "apellidos": "Gaitan",
+        "doc_identidad": "1034567890",
+        "fecha_nacimiento": {
+            "$date": "1984-05-16T00:00:00Z"
+        },
+        "representante": "Gaitan Management",
+        "perfil_artistico": {
+            "caracteristicas_fisicas": "1.63m, tez trigueña, pelinegra",
+            "habilidades_especiales": "Canto profesional, doblaje",
+            "trabajos_previos": "Encanto Disney"
+        },
+        "disponibilidad": "disponible",
+        "categoria_sindical": "Primera Categoria",
+        "cache": {
+            "$numberDecimal": "3800.00"
+        }
+    },
+    {
+        "_id": 6,
+        "nombres": "Julian",
+        "apellidos": "Roman",
+        "doc_identidad": "1076543210",
+        "fecha_nacimiento": {
+            "$date": "1977-11-23T00:00:00Z"
+        },
+        "representante": "Representaciones Art",
+        "perfil_artistico": {
+            "caracteristicas_fisicas": "1.75m, tez trigueña, ojos oscuros",
+            "habilidades_especiales": "Manejo de armas utileria, imitación",
+            "trabajos_previos": "Hasta que te conoci"
+        },
+        "disponibilidad": "ocupado",
+        "categoria_sindical": "Actores Principales",
+        "cache": {
+            "$numberDecimal": "4200.00"
+        }
+    },
+    {
+        "_id": 7,
+        "nombres": "Paulina",
+        "apellidos": "Dávila",
+        "doc_identidad": "1045678901",
+        "fecha_nacimiento": {
+            "$date": "1988-12-18T00:00:00Z"
+        },
+        "representante": "Talent Latino",
+        "perfil_artistico": {
+            "caracteristicas_fisicas": "1.68m, tez blanca, cabello castaño",
+            "habilidades_especiales": "Ingles y Frances fluido",
+            "trabajos_previos": "Luis Miguel La Serie"
+        },
+        "disponibilidad": "disponible",
+        "categoria_sindical": "Primera Categoria",
+        "cache": {
+            "$numberDecimal": "3500.00"
+        }
+    },
+    {
+        "_id": 8,
+        "nombres": "Marlon",
+        "apellidos": "Moreno",
+        "doc_identidad": "1065432109",
+        "fecha_nacimiento": {
+            "$date": {
+                "$numberLong": "-114393600000"
+            }
+        },
+        "representante": "Agencia Elite",
+        "perfil_artistico": {
+            "caracteristicas_fisicas": "1.82m, tez trigueña, calvo",
+            "habilidades_especiales": "Artes marciales, boxeo",
+            "trabajos_previos": "El Capo"
+        },
+        "disponibilidad": "disponible",
+        "categoria_sindical": "Actores Principales",
+        "cache": {
+            "$numberDecimal": "5500.00"
+        }
+    },
+    {
+        "_id": 9,
+        "nombres": "Flora",
+        "apellidos": "Martinez",
+        "doc_identidad": "1056789012",
+        "fecha_nacimiento": {
+            "$date": "1977-11-01T00:00:00Z"
+        },
+        "representante": "Flora Music & Film",
+        "perfil_artistico": {
+            "caracteristicas_fisicas": "1.67m, tez trigueña, castaño",
+            "habilidades_especiales": "Canto Jazz, piano",
+            "trabajos_previos": "Rosario Tijeras"
+        },
+        "disponibilidad": "disponible",
+        "categoria_sindical": "Primera Categoria",
+        "cache": {
+            "$numberDecimal": "3900.00"
+        }
+    },
+    {
+        "_id": 10,
+        "nombres": "Manolo",
+        "apellidos": "Cardona",
+        "doc_identidad": "1054321098",
+        "fecha_nacimiento": {
+            "$date": "1977-04-25T00:00:00Z"
+        },
+        "representante": "11:11 Films",
+        "perfil_artistico": {
+            "caracteristicas_fisicas": "1.85m, tez blanca, ojos claros",
+            "habilidades_especiales": "Direccion, deportes extremos",
+            "trabajos_previos": "Who Killed Sara"
+        },
+        "disponibilidad": "ocupado",
+        "categoria_sindical": "Actores Principales",
+        "cache": {
+            "$numberDecimal": "5800.00"
+        }
+    }
+]

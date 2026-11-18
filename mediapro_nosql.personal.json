@@ -1,0 +1,142 @@
+[
+    {
+        "_id": 1,
+        "nombres": "Carlos",
+        "apellidos": "Mendoza",
+        "especialidad": "fotografia",
+        "experiencia_previa": "10 años en cine",
+        "portfolio": "http://portfolio.com/cmendoza",
+        "disponibilidad": "disponible",
+        "tarifa_diaria": {
+            "$numberDecimal": "800.00"
+        },
+        "contacto": "carlos.m@gmail.com",
+        "cargo": "fotografia"
+    },
+    {
+        "_id": 2,
+        "nombres": "Ana",
+        "apellidos": "Gomez",
+        "especialidad": "direccion",
+        "experiencia_previa": "8 años en series",
+        "portfolio": "http://portfolio.com/anagomez",
+        "disponibilidad": "ocupado",
+        "tarifa_diaria": {
+            "$numberDecimal": "1200.00"
+        },
+        "contacto": "ana.gomez@hotmail.com",
+        "cargo": "direccion"
+    },
+    {
+        "_id": 3,
+        "nombres": "David",
+        "apellidos": "Silva",
+        "especialidad": "sonido",
+        "experiencia_previa": "5 años en comerciales",
+        "portfolio": "http://portfolio.com/dsilva",
+        "disponibilidad": "disponible",
+        "tarifa_diaria": {
+            "$numberDecimal": "600.00"
+        },
+        "contacto": "david.sound@gmail.com",
+        "cargo": "sonido"
+    },
+    {
+        "_id": 4,
+        "nombres": "Sofia",
+        "apellidos": "Torres",
+        "especialidad": "edicion",
+        "experiencia_previa": "12 años postproduccion",
+        "portfolio": "http://portfolio.com/storres",
+        "disponibilidad": "ocupado",
+        "tarifa_diaria": {
+            "$numberDecimal": "900.00"
+        },
+        "contacto": "sofia.edit@gmail.com",
+        "cargo": "edicion"
+    },
+    {
+        "_id": 5,
+        "nombres": "Jorge",
+        "apellidos": "Ramirez",
+        "especialidad": "arte",
+        "experiencia_previa": "7 años en direccion de arte",
+        "portfolio": "http://portfolio.com/jramirez",
+        "disponibilidad": "disponible",
+        "tarifa_diaria": {
+            "$numberDecimal": "750.00"
+        },
+        "contacto": "jorge.arte@gmail.com",
+        "cargo": "arte"
+    },
+    {
+        "_id": 6,
+        "nombres": "Laura",
+        "apellidos": "Castro",
+        "especialidad": "fotografia",
+        "experiencia_previa": "4 años camara e iluminacion",
+        "portfolio": "http://portfolio.com/lcastro",
+        "disponibilidad": "disponible",
+        "tarifa_diaria": {
+            "$numberDecimal": "550.00"
+        },
+        "contacto": "laura.cam@gmail.com",
+        "cargo": "fotografia"
+    },
+    {
+        "_id": 7,
+        "nombres": "Felipe",
+        "apellidos": "Morales",
+        "especialidad": "sonido",
+        "experiencia_previa": "9 años en directos y microfonia",
+        "portfolio": "http://portfolio.com/fmorales",
+        "disponibilidad": "ocupado",
+        "tarifa_diaria": {
+            "$numberDecimal": "650.00"
+        },
+        "contacto": "felipe.audio@gmail.com",
+        "cargo": "sonido"
+    },
+    {
+        "_id": 8,
+        "nombres": "Elena",
+        "apellidos": "Vargas",
+        "especialidad": "edicion",
+        "experiencia_previa": "6 años etalonaje y color",
+        "portfolio": "http://portfolio.com/evargas",
+        "disponibilidad": "disponible",
+        "tarifa_diaria": {
+            "$numberDecimal": "850.00"
+        },
+        "contacto": "elena.color@gmail.com",
+        "cargo": "edicion"
+    },
+    {
+        "_id": 9,
+        "nombres": "Gabriel",
+        "apellidos": "Herrera",
+        "especialidad": "direccion",
+        "experiencia_previa": "15 años largometrajes",
+        "portfolio": "http://portfolio.com/gherrera",
+        "disponibilidad": "ocupado",
+        "tarifa_diaria": {
+            "$numberDecimal": "1500.00"
+        },
+        "contacto": "gabriel.director@gmail.com",
+        "cargo": "direccion"
+    },
+    {
+        "_id": 10,
+        "nombres": "Patricia",
+        "apellidos": "Navarro",
+        "especialidad": "arte",
+        "experiencia_previa": "8 años vestuario y maquillaje",
+        "portfolio": "http://portfolio.com/pnavarro",
+        "disponibilidad": "disponible",
+        "tarifa_diaria": {
+            "$numberDecimal": "700.00"
+        },
+        "contacto": "patricia.arte@gmail.com",
+        "cargo": "arte"
+    }
+]

@@ -1,0 +1,1303 @@
+[
+    {
+        "_id": 1,
+        "titulo": "El Laberinto del Tiempo",
+        "metadatos": {
+            "tipo": "pelicula",
+            "genero": "Ciencia Ficcion",
+            "etapa_actual": "rodaje",
+            "estado": "En Proceso"
+        },
+        "cliente_financiador": "Netflix",
+        "director": "Guillermo del Toro",
+        "productor_ejecutivo": "Alfonso Cuaron",
+        "presupuesto_asignado": {
+            "$numberDecimal": "1200000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2026-01-10T00:00:00Z"
+            },
+            "duracion_estimada": "120 min"
+        },
+        "escenas": [
+            {
+                "_id": 1,
+                "num_escena": 1,
+                "cod_localizacion": 1,
+                "guion_asociado": "Ext. Dia. El protagonista llega al estudio en busca de respuestas.",
+                "descripcion": "Entrada dramatica con musica en off.",
+                "personajes_involucrados": "Andres Parra, Natalia Reyes",
+                "tiempo_estimado": "00:10:00",
+                "complejidad_tecnica": "Media",
+                "necesidades_especiales": "Humor artificial",
+                "estado": "aprobada"
+            },
+            {
+                "_id": 3,
+                "num_escena": 1,
+                "cod_localizacion": 4,
+                "guion_asociado": "Ext. Dia. Entrevistas a ciudadanos sobre la contaminacion.",
+                "descripcion": "Planos fijos y testimoniales.",
+                "personajes_involucrados": "Habitantes locales",
+                "tiempo_estimado": "00:15:00",
+                "complejidad_tecnica": "Baja",
+                "necesidades_especiales": "Ninguna",
+                "estado": "aprobada"
+            },
+            {
+                "_id": 4,
+                "num_escena": 1,
+                "cod_localizacion": 3,
+                "guion_asociado": "Int. Dia. Baile festivo con el producto en mesa.",
+                "descripcion": "Coreografia rapida colorida.",
+                "personajes_involucrados": "Carolina Gaitan",
+                "tiempo_estimado": "00:05:00",
+                "complejidad_tecnica": "Media",
+                "necesidades_especiales": "Iluminacion alta frecuencia",
+                "estado": "aprobada"
+            },
+            {
+                "_id": 8,
+                "num_escena": 1,
+                "cod_localizacion": 3,
+                "guion_asociado": "Int. Dia. Discusion familiar en la sala colonial.",
+                "descripcion": "Drama clasico corte plano contra plano.",
+                "personajes_involucrados": "Margarita Rosa, Manolo Cardona",
+                "tiempo_estimado": "00:12:00",
+                "complejidad_tecnica": "Baja",
+                "necesidades_especiales": "Maquillaje de epoca",
+                "estado": "aprobada"
+            }
+        ],
+        "plan_rodaje": [
+            {
+                "_id": 1,
+                "cod_localizacion": 1,
+                "dia_rodaje": 1,
+                "fecha": {
+                    "$date": "2026-03-01T00:00:00Z"
+                },
+                "horario_inicio": "08:00:00",
+                "horario_fin": "18:00:00",
+                "escenas_programadas": "Escena 1",
+                "personajes_requeridos": "Andres Parra",
+                "equipo_tecnico_asignado": "Carlos Mendoza, David Silva",
+                "equipamiento_necesario": "ARRI Alexa, Luces Aputure",
+                "requerimientos_especiales": "Catering especial",
+                "plan_contingencia": "Traslado a estudio 2 si llueve",
+                "personal_asignado": [
+                    {
+                        "personal_id": 1,
+                        "nombre": "Carlos Mendoza"
+                    },
+                    {
+                        "personal_id": 3,
+                        "nombre": "David Silva"
+                    }
+                ]
+            },
+            {
+                "_id": 2,
+                "cod_localizacion": 2,
+                "dia_rodaje": 2,
+                "fecha": {
+                    "$date": "2026-03-02T00:00:00Z"
+                },
+                "horario_inicio": "18:00:00",
+                "horario_fin": "04:00:00",
+                "escenas_programadas": "Escena 2",
+                "personajes_requeridos": "Christian Tappan",
+                "equipo_tecnico_asignado": "Laura Castro, Felipe Morales",
+                "equipamiento_necesario": "RED Raptor, Grua Kupo",
+                "requerimientos_especiales": "Camion pipa de agua",
+                "plan_contingencia": "Camper con calefaccion",
+                "personal_asignado": [
+                    {
+                        "personal_id": 6,
+                        "nombre": "Laura Castro"
+                    },
+                    {
+                        "personal_id": 7,
+                        "nombre": "Felipe Morales"
+                    }
+                ]
+            }
+        ],
+        "material_grabado": [
+            {
+                "_id": 1,
+                "id_escena": 1,
+                "cod_plan": 1,
+                "toma": 1,
+                "duracion": "00:02:15",
+                "formato": "ProRes 4444",
+                "resolucion": "4K DCI",
+                "camara_utilizada": "ARRI Alexa Mini",
+                "tarjeta_disco": "Disco SSD 1TB - A",
+                "timecode_inicio": "01:00:00:00",
+                "timecode_fin": "01:02:15:00",
+                "audio_asociado": "Audio_Toma1.wav",
+                "observaciones_director": "Buena actuacion, repetir por enfoque",
+                "calificacion": "buena"
+            },
+            {
+                "_id": 2,
+                "id_escena": 1,
+                "cod_plan": 1,
+                "toma": 2,
+                "duracion": "00:02:10",
+                "formato": "ProRes 4444",
+                "resolucion": "4K DCI",
+                "camara_utilizada": "ARRI Alexa Mini",
+                "tarjeta_disco": "Disco SSD 1TB - A",
+                "timecode_inicio": "01:05:00:00",
+                "timecode_fin": "01:07:10:00",
+                "audio_asociado": "Audio_Toma2.wav",
+                "observaciones_director": "Toma magistral, perfecta luz",
+                "calificacion": "optima"
+            },
+            {
+                "_id": 3,
+                "id_escena": 2,
+                "cod_plan": 2,
+                "toma": 1,
+                "duracion": "00:01:45",
+                "formato": "REDRAW 8K",
+                "resolucion": "8K VV",
+                "camara_utilizada": "RED V-Raptor",
+                "tarjeta_disco": "CFexpress 660GB",
+                "timecode_inicio": "02:10:00:00",
+                "timecode_fin": "02:11:45:00",
+                "audio_asociado": "Audio_Toma3.wav",
+                "observaciones_director": "Ruido de lluvia tapo dialogo",
+                "calificacion": "descartada"
+            },
+            {
+                "_id": 4,
+                "id_escena": 2,
+                "cod_plan": 2,
+                "toma": 2,
+                "duracion": "00:01:50",
+                "formato": "REDRAW 8K",
+                "resolucion": "8K VV",
+                "camara_utilizada": "RED V-Raptor",
+                "tarjeta_disco": "CFexpress 660GB",
+                "timecode_inicio": "02:15:00:00",
+                "timecode_fin": "02:16:50:00",
+                "audio_asociado": "Audio_Toma4.wav",
+                "observaciones_director": "Excelente energia del actor",
+                "calificacion": "optima"
+            }
+        ],
+        "postproduccion": [
+            {
+                "_id": 1,
+                "tipo_proceso": "montaje",
+                "responsable": "Sofia Torres",
+                "fecha_inicio": {
+                    "$date": "2026-03-05T00:00:00Z"
+                },
+                "fecha_fin_planificada": {
+                    "$date": "2026-04-10T00:00:00Z"
+                },
+                "porcentaje_completado": 45,
+                "material_utilizado": "Tomas opticas disco A y B",
+                "software": "Adobe Premiere Pro",
+                "versiones_generadas": "v1.0_Cut_Draft",
+                "aprobaciones_necesarias": "Aprobacion Director",
+                "estado": "En Proceso"
+            }
+        ],
+        "distribucion_exhibicion": [
+            {
+                "_id": 1,
+                "territorio": "Latinoamerica",
+                "plataforma": "streaming",
+                "distribuidor": "Netflix Latam",
+                "acuerdo_economico": "Mínimo Garantizado + 15% Royalties",
+                "fechas": "2026-08-15",
+                "mercados_objetivo": "Jovenes 18-35 años",
+                "materiales_promocionales": "Trailer HD, Poster Oficial",
+                "presupuesto_marketing": {
+                    "$numberDecimal": "150000.00"
+                },
+                "resultados_obtenidos": "Proyeccion 5M vistas"
+            }
+        ],
+        "formato": "pelicula"
+    },
+    {
+        "_id": 2,
+        "titulo": "Eco Urbano",
+        "metadatos": {
+            "tipo": "documental",
+            "genero": "Medio Ambiente",
+            "etapa_actual": "postproduccion",
+            "estado": "En Proceso"
+        },
+        "cliente_financiador": "NatGeo",
+        "director": "Marina Silva",
+        "productor_ejecutivo": "Carlos Restrepo",
+        "presupuesto_asignado": {
+            "$numberDecimal": "250000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2026-02-15T00:00:00Z"
+            },
+            "duracion_estimada": "60 min"
+        },
+        "escenas": [
+            {
+                "_id": 2,
+                "num_escena": 2,
+                "cod_localizacion": 2,
+                "guion_asociado": "Ext. Noche. Persecución en el bosque bajo la lluvia.",
+                "descripcion": "Accion rapida con acrobacias.",
+                "personajes_involucrados": "Christian Tappan",
+                "tiempo_estimado": "00:25:00",
+                "complejidad_tecnica": "Alta",
+                "necesidades_especiales": "Efectos de lluvia y Stunts",
+                "estado": "pendiente"
+            },
+            {
+                "_id": 6,
+                "num_escena": 2,
+                "cod_localizacion": 5,
+                "guion_asociado": "Int. Dia. Interrogatorio en galpon abandonado.",
+                "descripcion": "Tension, luz tenue cenital.",
+                "personajes_involucrados": "Marlon Moreno, Paulina Davila",
+                "tiempo_estimado": "00:18:00",
+                "complejidad_tecnica": "Alta",
+                "necesidades_especiales": "Efectos de humo",
+                "estado": "pendiente"
+            }
+        ],
+        "plan_rodaje": [
+            {
+                "_id": 3,
+                "cod_localizacion": 4,
+                "dia_rodaje": 1,
+                "fecha": {
+                    "$date": "2026-03-05T00:00:00Z"
+                },
+                "horario_inicio": "07:00:00",
+                "horario_fin": "15:00:00",
+                "escenas_programadas": "Escena 3",
+                "personajes_requeridos": "Testimoniales",
+                "equipo_tecnico_asignado": "Ana Gomez, Sofia Torres",
+                "equipamiento_necesario": "Sony FX6, Microfono Sennheiser",
+                "requerimientos_especiales": "Permiso de transito",
+                "plan_contingencia": "Usar toldos en lluvia",
+                "personal_asignado": [
+                    {
+                        "personal_id": 2,
+                        "nombre": "Ana Gomez"
+                    },
+                    {
+                        "personal_id": 4,
+                        "nombre": "Sofia Torres"
+                    }
+                ]
+            }
+        ],
+        "material_grabado": [
+            {
+                "_id": 5,
+                "id_escena": 3,
+                "cod_plan": 3,
+                "toma": 1,
+                "duracion": "00:05:20",
+                "formato": "XAVC-I",
+                "resolucion": "4K UHD",
+                "camara_utilizada": "Sony FX6",
+                "tarjeta_disco": "SDXC 256GB - 1",
+                "timecode_inicio": "03:00:00:00",
+                "timecode_fin": "03:05:20:00",
+                "audio_asociado": "Audio_Toma5.wav",
+                "observaciones_director": "Testimonio fluido",
+                "calificacion": "buena"
+            }
+        ],
+        "postproduccion": [
+            {
+                "_id": 2,
+                "tipo_proceso": "etalonaje",
+                "responsable": "Elena Vargas",
+                "fecha_inicio": {
+                    "$date": "2026-03-08T00:00:00Z"
+                },
+                "fecha_fin_planificada": {
+                    "$date": "2026-03-25T00:00:00Z"
+                },
+                "porcentaje_completado": 80,
+                "material_utilizado": "Material 4K NatGeo",
+                "software": "DaVinci Resolve Studio",
+                "versiones_generadas": "v2.1_ColorPassed",
+                "aprobaciones_necesarias": "Aprobacion Productor",
+                "estado": "En Proceso"
+            }
+        ],
+        "distribucion_exhibicion": [
+            {
+                "_id": 2,
+                "territorio": "Global",
+                "plataforma": "TV",
+                "distribuidor": "National Geographic Channel",
+                "acuerdo_economico": "Licencia Exclusiva 2 años",
+                "fechas": "2026-05-20",
+                "mercados_objetivo": "Audiencia Ecologica",
+                "materiales_promocionales": "Banner Web, Teaser 30s",
+                "presupuesto_marketing": {
+                    "$numberDecimal": "30000.00"
+                },
+                "resultados_obtenidos": "Emisión Prime Time"
+            }
+        ],
+        "formato": "documental"
+    },
+    {
+        "_id": 3,
+        "titulo": "Ritmo Sabor",
+        "metadatos": {
+            "tipo": "comercial",
+            "genero": "Publicidad",
+            "etapa_actual": "completado",
+            "estado": "Finalizado"
+        },
+        "cliente_financiador": "Coca-Cola",
+        "director": "Juan Gomez",
+        "productor_ejecutivo": "Lucia Fernandez",
+        "presupuesto_asignado": {
+            "$numberDecimal": "80000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2026-03-01T00:00:00Z"
+            },
+            "duracion_estimada": "1 min"
+        },
+        "escenas": [
+            {
+                "_id": 5,
+                "num_escena": 1,
+                "cod_localizacion": 8,
+                "guion_asociado": "Int. Noche. Reunion secreta en el piso 30.",
+                "descripcion": "Dialagos de alta tension politica.",
+                "personajes_involucrados": "Julian Roman, Marlon Moreno",
+                "tiempo_estimado": "00:20:00",
+                "complejidad_tecnica": "Media",
+                "necesidades_especiales": "Vista panoramica nocturna",
+                "estado": "rodada"
+            }
+        ],
+        "plan_rodaje": [
+            {
+                "_id": 4,
+                "cod_localizacion": 3,
+                "dia_rodaje": 1,
+                "fecha": {
+                    "$date": "2026-03-10T00:00:00Z"
+                },
+                "horario_inicio": "09:00:00",
+                "horario_fin": "17:00:00",
+                "escenas_programadas": "Escena 4",
+                "personajes_requeridos": "Carolina Gaitan",
+                "equipo_tecnico_asignado": "Jorge Ramirez, Patricia Navarro",
+                "equipamiento_necesario": "ARRI Alexa, SkyPanels",
+                "requerimientos_especiales": "Piso antideslizante",
+                "plan_contingencia": "Ninguno",
+                "personal_asignado": [
+                    {
+                        "personal_id": 5,
+                        "nombre": "Jorge Ramirez"
+                    },
+                    {
+                        "personal_id": 10,
+                        "nombre": "Patricia Navarro"
+                    }
+                ]
+            }
+        ],
+        "material_grabado": [
+            {
+                "_id": 6,
+                "id_escena": 4,
+                "cod_plan": 4,
+                "toma": 1,
+                "duracion": "00:00:45",
+                "formato": "ProRes 422",
+                "resolucion": "4K DCI",
+                "camara_utilizada": "ARRI Alexa Mini",
+                "tarjeta_disco": "Disco SSD 1TB - B",
+                "timecode_inicio": "04:00:00:00",
+                "timecode_fin": "04:00:45:00",
+                "audio_asociado": "Audio_Toma6.wav",
+                "observaciones_director": "Ritmo de baile ajustado",
+                "calificacion": "optima"
+            }
+        ],
+        "postproduccion": [
+            {
+                "_id": 3,
+                "tipo_proceso": "sonorizacion",
+                "responsable": "David Silva",
+                "fecha_inicio": {
+                    "$date": "2026-03-12T00:00:00Z"
+                },
+                "fecha_fin_planificada": {
+                    "$date": "2026-03-18T00:00:00Z"
+                },
+                "porcentaje_completado": 100,
+                "material_utilizado": "Audio_Toma6.wav",
+                "software": "Pro Tools Ultimate",
+                "versiones_generadas": "vFINAL_MIX_MASTER",
+                "aprobaciones_necesarias": "Cliente Coca-Cola",
+                "estado": "Finalizado"
+            }
+        ],
+        "distribucion_exhibicion": [
+            {
+                "_id": 3,
+                "territorio": "Colombia",
+                "plataforma": "TV",
+                "distribuidor": "Caracol & RCN",
+                "acuerdo_economico": "Pago Unico Spots",
+                "fechas": "2026-03-15",
+                "mercados_objetivo": "Publico General",
+                "materiales_promocionales": "Spots adaptados 15s y 30s",
+                "presupuesto_marketing": {
+                    "$numberDecimal": "20000.00"
+                },
+                "resultados_obtenidos": "Impacto 10M televidentes"
+            }
+        ],
+        "formato": "comercial"
+    },
+    {
+        "_id": 4,
+        "titulo": "Sombra Silenciosa",
+        "metadatos": {
+            "tipo": "serie",
+            "genero": "Thriller",
+            "etapa_actual": "postproduccion",
+            "estado": "En Proceso"
+        },
+        "cliente_financiador": "HBO Max",
+        "director": "David Fincher",
+        "productor_ejecutivo": "Jason Blum",
+        "presupuesto_asignado": {
+            "$numberDecimal": "2500000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2025-11-01T00:00:00Z"
+            },
+            "duracion_estimada": "8 episodios"
+        },
+        "escenas": [
+            {
+                "_id": 7,
+                "num_escena": 1,
+                "cod_localizacion": 10,
+                "guion_asociado": "Int. Noche. Concierto en vivo ante publico.",
+                "descripcion": "Planos secuencia moviles.",
+                "personajes_involucrados": "Flora Martinez",
+                "tiempo_estimado": "00:08:00",
+                "complejidad_tecnica": "Alta",
+                "necesidades_especiales": "Luces de escenario sync",
+                "estado": "rodada"
+            },
+            {
+                "_id": 9,
+                "num_escena": 1,
+                "cod_localizacion": 2,
+                "guion_asociado": "Ext. Noche. Aparicion espectral en el sendero.",
+                "descripcion": "Terror atmosferico.",
+                "personajes_involucrados": "Natalia Reyes",
+                "tiempo_estimado": "00:14:00",
+                "complejidad_tecnica": "Alta",
+                "necesidades_especiales": "Proyeccion Holografica",
+                "estado": "pendiente"
+            }
+        ],
+        "plan_rodaje": [
+            {
+                "_id": 5,
+                "cod_localizacion": 8,
+                "dia_rodaje": 1,
+                "fecha": {
+                    "$date": "2026-03-15T00:00:00Z"
+                },
+                "horario_inicio": "19:00:00",
+                "horario_fin": "03:00:00",
+                "escenas_programadas": "Escena 5",
+                "personajes_requeridos": "Julian Roman, Marlon Moreno",
+                "equipo_tecnico_asignado": "Gabriel Herrera, Elena Vargas",
+                "equipamiento_necesario": "RED Raptor, Tubos Nanlite",
+                "requerimientos_especiales": "Silenciador de planta",
+                "plan_contingencia": "Uso de luces LED bateria",
+                "personal_asignado": [
+                    {
+                        "personal_id": 9,
+                        "nombre": "Gabriel Herrera"
+                    },
+                    {
+                        "personal_id": 8,
+                        "nombre": "Elena Vargas"
+                    }
+                ]
+            },
+            {
+                "_id": 6,
+                "cod_localizacion": 5,
+                "dia_rodaje": 2,
+                "fecha": {
+                    "$date": "2026-03-16T00:00:00Z"
+                },
+                "horario_inicio": "08:00:00",
+                "horario_fin": "18:00:00",
+                "escenas_programadas": "Escena 6",
+                "personajes_requeridos": "Marlon Moreno",
+                "equipo_tecnico_asignado": "Carlos Mendoza, David Silva",
+                "equipamiento_necesario": "ARRI Alexa, Maquina de humo",
+                "requerimientos_especiales": "Seguridad privada",
+                "plan_contingencia": "Edificio contiguo habilitado",
+                "personal_asignado": [
+                    {
+                        "personal_id": 1,
+                        "nombre": "Carlos Mendoza"
+                    },
+                    {
+                        "personal_id": 3,
+                        "nombre": "David Silva"
+                    }
+                ]
+            }
+        ],
+        "material_grabado": [
+            {
+                "_id": 7,
+                "id_escena": 5,
+                "cod_plan": 5,
+                "toma": 1,
+                "duracion": "00:03:10",
+                "formato": "REDRAW 8K",
+                "resolucion": "8K VV",
+                "camara_utilizada": "RED V-Raptor",
+                "tarjeta_disco": "CFexpress 512GB",
+                "timecode_inicio": "05:10:00:00",
+                "timecode_fin": "05:13:10:00",
+                "audio_asociado": "Audio_Toma7.wav",
+                "observaciones_director": "Sombras muy oscuras",
+                "calificacion": "descartada"
+            },
+            {
+                "_id": 8,
+                "id_escena": 5,
+                "cod_plan": 5,
+                "toma": 2,
+                "duracion": "00:03:05",
+                "formato": "REDRAW 8K",
+                "resolucion": "8K VV",
+                "camara_utilizada": "RED V-Raptor",
+                "tarjeta_disco": "CFexpress 512GB",
+                "timecode_inicio": "05:20:00:00",
+                "timecode_fin": "05:23:05:00",
+                "audio_asociado": "Audio_Toma8.wav",
+                "observaciones_director": "Intensidad actoral perfecta",
+                "calificacion": "optima"
+            }
+        ],
+        "postproduccion": [
+            {
+                "_id": 4,
+                "tipo_proceso": "VFX",
+                "responsable": "VFX Studios Med",
+                "fecha_inicio": {
+                    "$date": "2026-03-20T00:00:00Z"
+                },
+                "fecha_fin_planificada": {
+                    "$date": "2026-05-30T00:00:00Z"
+                },
+                "porcentaje_completado": 20,
+                "material_utilizado": "CGI Fondo Ciudad",
+                "software": "Nuke / Maya",
+                "versiones_generadas": "v0.1_Teaser_VFX",
+                "aprobaciones_necesarias": "Director de Arte",
+                "estado": "En Proceso"
+            }
+        ],
+        "distribucion_exhibicion": [
+            {
+                "_id": 4,
+                "territorio": "Norteamerica",
+                "plataforma": "streaming",
+                "distribuidor": "HBO Max",
+                "acuerdo_economico": "Licencia Original Series",
+                "fechas": "2026-10-31",
+                "mercados_objetivo": "Fans Thriller / Drama",
+                "materiales_promocionales": "Campaña Social Media + Billboard",
+                "presupuesto_marketing": {
+                    "$numberDecimal": "300000.00"
+                },
+                "resultados_obtenidos": "Proyeccion TOP 10"
+            }
+        ],
+        "formato": "serie"
+    },
+    {
+        "_id": 5,
+        "titulo": "Amanecer",
+        "metadatos": {
+            "tipo": "videoclip",
+            "genero": "Musical",
+            "etapa_actual": "rodaje",
+            "estado": "En Proceso"
+        },
+        "cliente_financiador": "Universal Music",
+        "director": "Lina Vega",
+        "productor_ejecutivo": "Mateo Rios",
+        "presupuesto_asignado": {
+            "$numberDecimal": "45000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2026-03-10T00:00:00Z"
+            },
+            "duracion_estimada": "4 min"
+        },
+        "escenas": [
+            {
+                "_id": 10,
+                "num_escena": 1,
+                "cod_localizacion": 9,
+                "guion_asociado": "Ext. Dia. Explosión de vehículo en el desierto.",
+                "descripcion": "Accion extrema corte multicamara.",
+                "personajes_involucrados": "Manolo Cardona, Stunts",
+                "tiempo_estimado": "00:30:00",
+                "complejidad_tecnica": "Alta",
+                "necesidades_especiales": "Pirotecnia y Bomberos",
+                "estado": "pendiente"
+            }
+        ],
+        "plan_rodaje": [
+            {
+                "_id": 7,
+                "cod_localizacion": 10,
+                "dia_rodaje": 1,
+                "fecha": {
+                    "$date": "2026-03-20T00:00:00Z"
+                },
+                "horario_inicio": "16:00:00",
+                "horario_fin": "00:00:00",
+                "escenas_programadas": "Escena 7",
+                "personajes_requeridos": "Flora Martinez",
+                "equipo_tecnico_asignado": "Lina Vega, Felipe Morales",
+                "equipamiento_necesario": "Sony FX6, Ronin DJI",
+                "requerimientos_especiales": "Consola de sonido en vivo",
+                "plan_contingencia": "Generador auxiliar",
+                "personal_asignado": [
+                    {
+                        "personal_id": 7,
+                        "nombre": "Felipe Morales"
+                    }
+                ],
+                "personal_no_registrado": [
+                    "Lina Vega"
+                ]
+            }
+        ],
+        "material_grabado": [
+            {
+                "_id": 9,
+                "id_escena": 7,
+                "cod_plan": 7,
+                "toma": 1,
+                "duracion": "00:04:12",
+                "formato": "XAVC-I",
+                "resolucion": "4K UHD",
+                "camara_utilizada": "Sony FX6",
+                "tarjeta_disco": "SDXC 256GB - 2",
+                "timecode_inicio": "06:00:00:00",
+                "timecode_fin": "06:04:12:00",
+                "audio_asociado": "Audio_Toma9.wav",
+                "observaciones_director": "Sonido de bateria impecable",
+                "calificacion": "optima"
+            }
+        ],
+        "postproduccion": [
+            {
+                "_id": 5,
+                "tipo_proceso": "montaje",
+                "responsable": "Sofia Torres",
+                "fecha_inicio": {
+                    "$date": "2026-03-22T00:00:00Z"
+                },
+                "fecha_fin_planificada": {
+                    "$date": "2026-03-29T00:00:00Z"
+                },
+                "porcentaje_completado": 90,
+                "material_utilizado": "Audio_Toma9.wav",
+                "software": "Final Cut Pro",
+                "versiones_generadas": "v1.0_SyncMusic",
+                "aprobaciones_necesarias": "Universal Music",
+                "estado": "En Proceso"
+            }
+        ],
+        "distribucion_exhibicion": [
+            {
+                "_id": 5,
+                "territorio": "Global",
+                "plataforma": "streaming",
+                "distribuidor": "YouTube Music / Vevo",
+                "acuerdo_economico": "Royalties por Reproduccion",
+                "fechas": "2026-04-01",
+                "mercados_objetivo": "Fans Pop Music",
+                "materiales_promocionales": "TikTok Challenge Video",
+                "presupuesto_marketing": {
+                    "$numberDecimal": "10000.00"
+                },
+                "resultados_obtenidos": "Goal 1M views"
+            }
+        ],
+        "formato": "videoclip"
+    },
+    {
+        "_id": 6,
+        "titulo": "Bajo la Lluvia",
+        "metadatos": {
+            "tipo": "pelicula",
+            "genero": "Drama",
+            "etapa_actual": "distribucion",
+            "estado": "Finalizado"
+        },
+        "cliente_financiador": "Caracol Cine",
+        "director": "Rodrigo Garcia",
+        "productor_ejecutivo": "Cristina Echeverri",
+        "presupuesto_asignado": {
+            "$numberDecimal": "600000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2025-08-20T00:00:00Z"
+            },
+            "duracion_estimada": "95 min"
+        },
+        "escenas": [],
+        "plan_rodaje": [
+            {
+                "_id": 8,
+                "cod_localizacion": 3,
+                "dia_rodaje": 1,
+                "fecha": {
+                    "$date": "2026-03-22T00:00:00Z"
+                },
+                "horario_inicio": "08:00:00",
+                "horario_fin": "16:00:00",
+                "escenas_programadas": "Escena 8",
+                "personajes_requeridos": "Margarita Rosa",
+                "equipo_tecnico_asignado": "Rodrigo Garcia, Jorge Ramirez",
+                "equipamiento_necesario": "ARRI Alexa, Luces Fresnel",
+                "requerimientos_especiales": "Filtros vintage",
+                "plan_contingencia": "Planta electrica respaldo",
+                "personal_asignado": [
+                    {
+                        "personal_id": 5,
+                        "nombre": "Jorge Ramirez"
+                    }
+                ],
+                "personal_no_registrado": [
+                    "Rodrigo Garcia"
+                ]
+            }
+        ],
+        "material_grabado": [
+            {
+                "_id": 10,
+                "id_escena": 8,
+                "cod_plan": 8,
+                "toma": 1,
+                "duracion": "00:02:30",
+                "formato": "ProRes 4444",
+                "resolucion": "4K DCI",
+                "camara_utilizada": "ARRI Alexa Mini",
+                "tarjeta_disco": "Disco SSD 1TB - C",
+                "timecode_inicio": "07:15:00:00",
+                "timecode_fin": "07:17:30:00",
+                "audio_asociado": "Audio_Toma10.wav",
+                "observaciones_director": "Corte por sombra no deseada",
+                "calificacion": "descartada"
+            }
+        ],
+        "postproduccion": [
+            {
+                "_id": 6,
+                "tipo_proceso": "etalonaje",
+                "responsable": "Elena Vargas",
+                "fecha_inicio": {
+                    "$date": "2025-09-01T00:00:00Z"
+                },
+                "fecha_fin_planificada": {
+                    "$date": "2025-10-15T00:00:00Z"
+                },
+                "porcentaje_completado": 100,
+                "material_utilizado": "ProRes Drama",
+                "software": "DaVinci Resolve",
+                "versiones_generadas": "vMASTER_CINEMA_DCP",
+                "aprobaciones_necesarias": "Productor Ejecutivo",
+                "estado": "Finalizado"
+            }
+        ],
+        "distribucion_exhibicion": [
+            {
+                "_id": 6,
+                "territorio": "Colombia",
+                "plataforma": "cine",
+                "distribuidor": "Cine Colombia / Procinal",
+                "acuerdo_economico": "Box Office Split 50/50",
+                "fechas": "2025-11-20",
+                "mercados_objetivo": "Amantes del cine nacional",
+                "materiales_promocionales": "Afiches physical, Premiere Gala",
+                "presupuesto_marketing": {
+                    "$numberDecimal": "80000.00"
+                },
+                "resultados_obtenidos": "500.000 espectadores"
+            }
+        ],
+        "formato": "pelicula"
+    },
+    {
+        "_id": 7,
+        "titulo": "Fuerza Vital",
+        "metadatos": {
+            "tipo": "comercial",
+            "genero": "Deportes",
+            "etapa_actual": "completado",
+            "estado": "Finalizado"
+        },
+        "cliente_financiador": "Nike",
+        "director": "Esteban Lopez",
+        "productor_ejecutivo": "Camila Osorio",
+        "presupuesto_asignado": {
+            "$numberDecimal": "120000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2026-02-28T00:00:00Z"
+            },
+            "duracion_estimada": "45 seg"
+        },
+        "escenas": [],
+        "plan_rodaje": [],
+        "material_grabado": [],
+        "postproduccion": [
+            {
+                "_id": 7,
+                "tipo_proceso": "sonorizacion",
+                "responsable": "Felipe Morales",
+                "fecha_inicio": {
+                    "$date": "2026-03-02T00:00:00Z"
+                },
+                "fecha_fin_planificada": {
+                    "$date": "2026-03-06T00:00:00Z"
+                },
+                "porcentaje_completado": 100,
+                "material_utilizado": "VoiceOver Nike",
+                "software": "Pro Tools",
+                "versiones_generadas": "vMASTER_TV_AUDIO",
+                "aprobaciones_necesarias": "Cliente Nike",
+                "estado": "Finalizado"
+            }
+        ],
+        "distribucion_exhibicion": [
+            {
+                "_id": 7,
+                "territorio": "Latinoamerica",
+                "plataforma": "TV",
+                "distribuidor": "Fox Sports / ESPN",
+                "acuerdo_economico": "Publicidad Pauta",
+                "fechas": "2026-03-08",
+                "mercados_objetivo": "Deportistas y Jóvenes",
+                "materiales_promocionales": "Banners Digitales",
+                "presupuesto_marketing": {
+                    "$numberDecimal": "25000.00"
+                },
+                "resultados_obtenidos": "Campaña exitosa"
+            }
+        ],
+        "formato": "comercial"
+    },
+    {
+        "_id": 8,
+        "titulo": "Cronicas Fantasmas",
+        "metadatos": {
+            "tipo": "serie",
+            "genero": "Terror",
+            "etapa_actual": "preproduccion",
+            "estado": "En Proceso"
+        },
+        "cliente_financiador": "Amazon Prime",
+        "director": "Mike Flanagan",
+        "productor_ejecutivo": "Trevor Macy",
+        "presupuesto_asignado": {
+            "$numberDecimal": "1800000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2026-01-05T00:00:00Z"
+            },
+            "duracion_estimada": "6 episodios"
+        },
+        "escenas": [],
+        "plan_rodaje": [
+            {
+                "_id": 9,
+                "cod_localizacion": 2,
+                "dia_rodaje": 1,
+                "fecha": {
+                    "$date": "2026-03-25T00:00:00Z"
+                },
+                "horario_inicio": "20:00:00",
+                "horario_fin": "04:00:00",
+                "escenas_programadas": "Escena 9",
+                "personajes_requeridos": "Natalia Reyes",
+                "equipo_tecnico_asignado": "Laura Castro, David Silva",
+                "equipamiento_necesario": "RED Raptor, Proyector Vfx",
+                "requerimientos_especiales": "Ambulancia en sitio",
+                "plan_contingencia": "Refugio termico",
+                "personal_asignado": [
+                    {
+                        "personal_id": 6,
+                        "nombre": "Laura Castro"
+                    },
+                    {
+                        "personal_id": 3,
+                        "nombre": "David Silva"
+                    }
+                ]
+            }
+        ],
+        "material_grabado": [],
+        "postproduccion": [
+            {
+                "_id": 8,
+                "tipo_proceso": "VFX",
+                "responsable": "Ghost VFX Lab",
+                "fecha_inicio": {
+                    "$date": "2026-02-01T00:00:00Z"
+                },
+                "fecha_fin_planificada": {
+                    "$date": "2026-04-15T00:00:00Z"
+                },
+                "porcentaje_completado": 35,
+                "material_utilizado": "Proyecciones Espectrales",
+                "software": "Houdini / Blender",
+                "versiones_generadas": "v0.3_Ectoplasma_Pass",
+                "aprobaciones_necesarias": "Mike Flanagan",
+                "estado": "En Proceso"
+            }
+        ],
+        "distribucion_exhibicion": [
+            {
+                "_id": 8,
+                "territorio": "Global",
+                "plataforma": "streaming",
+                "distribuidor": "Amazon Prime Video",
+                "acuerdo_economico": "Compra de Derechos Exclusivos",
+                "fechas": "2026-10-15",
+                "mercados_objetivo": "Fans Terror global",
+                "materiales_promocionales": "Kit de Prensa, Trailer 4K",
+                "presupuesto_marketing": {
+                    "$numberDecimal": "200000.00"
+                },
+                "resultados_obtenidos": "Lanzamiento en Halloween"
+            }
+        ],
+        "formato": "serie"
+    },
+    {
+        "_id": 9,
+        "titulo": "Mundo Profundo",
+        "metadatos": {
+            "tipo": "documental",
+            "genero": "Naturaleza",
+            "etapa_actual": "distribucion",
+            "estado": "Finalizado"
+        },
+        "cliente_financiador": "BBC",
+        "director": "David Attenborough",
+        "productor_ejecutivo": "Alastair Fothergill",
+        "presupuesto_asignado": {
+            "$numberDecimal": "950000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2025-05-12T00:00:00Z"
+            },
+            "duracion_estimada": "90 min"
+        },
+        "escenas": [],
+        "plan_rodaje": [],
+        "material_grabado": [],
+        "postproduccion": [
+            {
+                "_id": 9,
+                "tipo_proceso": "montaje",
+                "responsable": "Ana Gomez",
+                "fecha_inicio": {
+                    "$date": "2025-06-01T00:00:00Z"
+                },
+                "fecha_fin_planificada": {
+                    "$date": "2025-07-30T00:00:00Z"
+                },
+                "porcentaje_completado": 100,
+                "material_utilizado": "Material BBC Nature",
+                "software": "Avid Media Composer",
+                "versiones_generadas": "vMASTER_BBC_DOC",
+                "aprobaciones_necesarias": "BBC London",
+                "estado": "Finalizado"
+            }
+        ],
+        "distribucion_exhibicion": [
+            {
+                "_id": 9,
+                "territorio": "Europa",
+                "plataforma": "TV",
+                "distribuidor": "BBC Two / Arte TV",
+                "acuerdo_economico": "Venta Derechos Publicos",
+                "fechas": "2025-09-10",
+                "mercados_objetivo": "Documentales Naturaleza",
+                "materiales_promocionales": "Guia educativa + DVD",
+                "presupuesto_marketing": {
+                    "$numberDecimal": "50000.00"
+                },
+                "resultados_obtenidos": "Premio Festival Naturaleza"
+            }
+        ],
+        "formato": "documental"
+    },
+    {
+        "_id": 10,
+        "titulo": "Vuelo Final",
+        "metadatos": {
+            "tipo": "pelicula",
+            "genero": "Accion",
+            "etapa_actual": "rodaje",
+            "estado": "En Proceso"
+        },
+        "cliente_financiador": "Sony Pictures",
+        "director": "Michael Bay",
+        "productor_ejecutivo": "Jerry Bruckheimer",
+        "presupuesto_asignado": {
+            "$numberDecimal": "3000000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2026-02-01T00:00:00Z"
+            },
+            "duracion_estimada": "130 min"
+        },
+        "escenas": [],
+        "plan_rodaje": [
+            {
+                "_id": 10,
+                "cod_localizacion": 9,
+                "dia_rodaje": 1,
+                "fecha": {
+                    "$date": "2026-03-28T00:00:00Z"
+                },
+                "horario_inicio": "06:00:00",
+                "horario_fin": "18:00:00",
+                "escenas_programadas": "Escena 10",
+                "personajes_requeridos": "Manolo Cardona",
+                "equipo_tecnico_asignado": "Michael Bay Team",
+                "equipamiento_necesario": "ARRI + RED, Drones 8K",
+                "requerimientos_especiales": "Equipo de pirotecnia",
+                "plan_contingencia": "Helicoptero medico rescate",
+                "personal_asignado": [],
+                "personal_no_registrado": [
+                    "Michael Bay Team"
+                ]
+            }
+        ],
+        "material_grabado": [],
+        "postproduccion": [
+            {
+                "_id": 10,
+                "tipo_proceso": "VFX",
+                "responsable": "Industrial Light & Magic",
+                "fecha_inicio": {
+                    "$date": "2026-03-29T00:00:00Z"
+                },
+                "fecha_fin_planificada": {
+                    "$date": "2026-06-30T00:00:00Z"
+                },
+                "porcentaje_completado": 10,
+                "material_utilizado": "Explosion CGI 8K",
+                "software": "Unreal Engine 5",
+                "versiones_generadas": "v0.1_Previs_Explosion",
+                "aprobaciones_necesarias": "Michael Bay",
+                "estado": "En Proceso"
+            }
+        ],
+        "distribucion_exhibicion": [
+            {
+                "_id": 10,
+                "territorio": "Global",
+                "plataforma": "cine",
+                "distribuidor": "Sony Pictures Releasing",
+                "acuerdo_economico": "Distribucion Mundial Cines",
+                "fechas": "2026-12-15",
+                "mercados_objetivo": "Publico General Accion",
+                "materiales_promocionales": "Standees 3D Cines, Tour Prensa",
+                "presupuesto_marketing": {
+                    "$numberDecimal": "800000.00"
+                },
+                "resultados_obtenidos": "Proyeccion Blockbuster"
+            }
+        ],
+        "formato": "pelicula"
+    },
+    {
+        "_id": 11,
+        "titulo": "Horizonte de Cristal",
+        "formato": "pelicula",
+        "metadatos": {
+            "tipo": "pelicula",
+            "genero": "Drama",
+            "etapa_actual": "preproduccion",
+            "estado": "Planificada"
+        },
+        "cliente_financiador": "CineAndes",
+        "director": "Lucia Restrepo",
+        "productor_ejecutivo": "Mateo Salazar",
+        "presupuesto_asignado": {
+            "$numberDecimal": "850000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2026-07-01T00:00:00Z"
+            },
+            "duracion_estimada": "105 min"
+        },
+        "escenas": [],
+        "plan_rodaje": [],
+        "material_grabado": [],
+        "postproduccion": [],
+        "distribucion_exhibicion": []
+    },
+    {
+        "_id": 12,
+        "titulo": "Voces del Río",
+        "formato": "documental",
+        "metadatos": {
+            "tipo": "documental",
+            "genero": "Naturaleza",
+            "etapa_actual": "rodaje",
+            "estado": "En Proceso"
+        },
+        "cliente_financiador": "EcoVision",
+        "director": "Daniela Rojas",
+        "productor_ejecutivo": "Santiago Mejia",
+        "presupuesto_asignado": {
+            "$numberDecimal": "180000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2026-07-10T00:00:00Z"
+            },
+            "duracion_estimada": "52 min"
+        },
+        "escenas": [],
+        "plan_rodaje": [],
+        "material_grabado": [],
+        "postproduccion": [],
+        "distribucion_exhibicion": []
+    },
+    {
+        "_id": 13,
+        "titulo": "Ciudad en Movimiento",
+        "formato": "comercial",
+        "metadatos": {
+            "tipo": "comercial",
+            "genero": "Publicidad",
+            "etapa_actual": "preproduccion",
+            "estado": "Planificada"
+        },
+        "cliente_financiador": "Marca Urbana",
+        "director": "Andres Molina",
+        "productor_ejecutivo": "Valentina Perez",
+        "presupuesto_asignado": {
+            "$numberDecimal": "95000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2026-08-01T00:00:00Z"
+            },
+            "duracion_estimada": "2 min"
+        },
+        "escenas": [],
+        "plan_rodaje": [],
+        "material_grabado": [],
+        "postproduccion": [],
+        "distribucion_exhibicion": []
+    },
+    {
+        "_id": 14,
+        "titulo": "Frecuencia Cero",
+        "formato": "serie",
+        "metadatos": {
+            "tipo": "serie",
+            "genero": "Suspenso",
+            "etapa_actual": "postproduccion",
+            "estado": "En Proceso"
+        },
+        "cliente_financiador": "Canal Horizonte",
+        "director": "Camilo Torres",
+        "productor_ejecutivo": "Juliana Arias",
+        "presupuesto_asignado": {
+            "$numberDecimal": "640000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2026-08-15T00:00:00Z"
+            },
+            "duracion_estimada": "8 episodios"
+        },
+        "escenas": [],
+        "plan_rodaje": [],
+        "material_grabado": [],
+        "postproduccion": [],
+        "distribucion_exhibicion": []
+    },
+    {
+        "_id": 15,
+        "titulo": "Ritmo de Montaña",
+        "formato": "videoclip",
+        "metadatos": {
+            "tipo": "videoclip",
+            "genero": "Musical",
+            "etapa_actual": "rodaje",
+            "estado": "En Proceso"
+        },
+        "cliente_financiador": "Sonido Vivo",
+        "director": "Nicolas Marin",
+        "productor_ejecutivo": "Sara Quintero",
+        "presupuesto_asignado": {
+            "$numberDecimal": "45000.00"
+        },
+        "cronograma": {
+            "fecha_inicio": {
+                "$date": "2026-09-01T00:00:00Z"
+            },
+            "duracion_estimada": "4 min"
+        },
+        "escenas": [],
+        "plan_rodaje": [],
+        "material_grabado": [],
+        "postproduccion": [],
+        "distribucion_exhibicion": []
+    }
+]

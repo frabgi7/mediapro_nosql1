@@ -1,0 +1,202 @@
+[
+    {
+        "_id": 1,
+        "nombre": "Estudio Central 1",
+        "ubicacion": {
+            "direccion": "Av. Las Vegas #10-20",
+            "coordenadas": "6.150,-75.580"
+        },
+        "tipo": "estudio",
+        "propietario": "CineFilms Ltda",
+        "detalles_operativos": {
+            "caracteristicas": "Insonorizado con parrilla de luces",
+            "permisos_necesarios": "Permiso Municipal A",
+            "costo": {
+                "$numberDecimal": "5000.00"
+            },
+            "limitaciones_uso": "Sin pirotecnia",
+            "facilidades": "Camerinos y parqueadero"
+        },
+        "accesibilidad": true
+    },
+    {
+        "_id": 2,
+        "nombre": "Bosque Encantado",
+        "ubicacion": {
+            "direccion": "Vereda El Porvenir Km 5",
+            "coordenadas": "6.180,-75.520"
+        },
+        "tipo": "exterior",
+        "propietario": "Reserva Natural",
+        "detalles_operativos": {
+            "caracteristicas": "Bosque denso y sendero",
+            "permisos_necesarios": "Permiso Ambiental",
+            "costo": {
+                "$numberDecimal": "2000.00"
+            },
+            "limitaciones_uso": "No basura",
+            "facilidades": "Zona de camping"
+        },
+        "accesibilidad": false
+    },
+    {
+        "_id": 3,
+        "nombre": "Casa Colonial Centro",
+        "ubicacion": {
+            "direccion": "Calle 50 #42-15",
+            "coordenadas": "6.250,-75.560"
+        },
+        "tipo": "interior",
+        "propietario": "Familia Perez",
+        "detalles_operativos": {
+            "caracteristicas": "Estructura siglo XIX con patio",
+            "permisos_necesarios": "Permiso Patrimonio",
+            "costo": {
+                "$numberDecimal": "3500.00"
+            },
+            "limitaciones_uso": "Cuidado con pisos de madera",
+            "facilidades": "Cocina amplia"
+        },
+        "accesibilidad": true
+    },
+    {
+        "_id": 4,
+        "nombre": "Plaza Mayor",
+        "ubicacion": {
+            "direccion": "Carrera 43A #1-50",
+            "coordenadas": "6.200,-75.570"
+        },
+        "tipo": "exterior",
+        "propietario": "Alcaldia",
+        "detalles_operativos": {
+            "caracteristicas": "Espacio abierto urbano",
+            "permisos_necesarios": "Permiso Espacio Publico",
+            "costo": {
+                "$numberDecimal": "1500.00"
+            },
+            "limitaciones_uso": "Solo horario nocturno",
+            "facilidades": "Baños publicos"
+        },
+        "accesibilidad": true
+    },
+    {
+        "_id": 5,
+        "nombre": "Nave Industrial B",
+        "ubicacion": {
+            "direccion": "Zona Franca Rionegro",
+            "coordenadas": "6.140,-75.400"
+        },
+        "tipo": "interior",
+        "propietario": "Logistica S.A.",
+        "detalles_operativos": {
+            "caracteristicas": "Galpon de 1000m2",
+            "permisos_necesarios": "Permiso Industrial",
+            "costo": {
+                "$numberDecimal": "4000.00"
+            },
+            "limitaciones_uso": "Uso obligatorio de casco",
+            "facilidades": "Energia trifasica"
+        },
+        "accesibilidad": true
+    },
+    {
+        "_id": 6,
+        "nombre": "Playa Cristal",
+        "ubicacion": {
+            "direccion": "Sector Parque Tayrona",
+            "coordenadas": "11.300,-74.100"
+        },
+        "tipo": "exterior",
+        "propietario": "Parques Nacionales",
+        "detalles_operativos": {
+            "caracteristicas": "Arena blanca y mar",
+            "permisos_necesarios": "Permiso Parques",
+            "costo": {
+                "$numberDecimal": "6000.00"
+            },
+            "limitaciones_uso": "No vehiculos a motor",
+            "facilidades": "Cabañas cercanas"
+        },
+        "accesibilidad": false
+    },
+    {
+        "_id": 7,
+        "nombre": "Estudio Green Screen",
+        "ubicacion": {
+            "direccion": "Calle 30 #65-10",
+            "coordenadas": "6.220,-75.590"
+        },
+        "tipo": "estudio",
+        "propietario": "VFX Studios",
+        "detalles_operativos": {
+            "caracteristicas": "Chroma key verde 360",
+            "permisos_necesarios": "Ninguno",
+            "costo": {
+                "$numberDecimal": "4500.00"
+            },
+            "limitaciones_uso": "Uso de calzado especial",
+            "facilidades": "Equipos VFX incluidos"
+        },
+        "accesibilidad": true
+    },
+    {
+        "_id": 8,
+        "nombre": "Rascacielos Torre 1",
+        "ubicacion": {
+            "direccion": "Calle 100 #7-33",
+            "coordenadas": "4.680,-74.040"
+        },
+        "tipo": "interior",
+        "propietario": "Grupo Inmobiliario",
+        "detalles_operativos": {
+            "caracteristicas": "Oficina ejecutiva piso 30",
+            "permisos_necesarios": "Permiso Privado",
+            "costo": {
+                "$numberDecimal": "8000.00"
+            },
+            "limitaciones_uso": "Ingreso despues de las 6pm",
+            "facilidades": "Ascensores de carga"
+        },
+        "accesibilidad": true
+    },
+    {
+        "_id": 9,
+        "nombre": "Desierto de la Tatacoa",
+        "ubicacion": {
+            "direccion": "Huila Sector Norte",
+            "coordenadas": "3.230,-75.160"
+        },
+        "tipo": "exterior",
+        "propietario": "Gobernacion",
+        "detalles_operativos": {
+            "caracteristicas": "Terreno arido y rocoso",
+            "permisos_necesarios": "Permiso Turistico",
+            "costo": {
+                "$numberDecimal": "2500.00"
+            },
+            "limitaciones_uso": "Temperaturas extremas",
+            "facilidades": "Zona de sombra movil"
+        },
+        "accesibilidad": false
+    },
+    {
+        "_id": 10,
+        "nombre": "Teatro Municipal",
+        "ubicacion": {
+            "direccion": "Carrera 5 #12-20",
+            "coordenadas": "4.600,-74.070"
+        },
+        "tipo": "interior",
+        "propietario": "Ministerio de Cultura",
+        "detalles_operativos": {
+            "caracteristicas": "Escenario clasico con palcos",
+            "permisos_necesarios": "Permiso Cultural",
+            "costo": {
+                "$numberDecimal": "7000.00"
+            },
+            "limitaciones_uso": "No alterar escenografia",
+            "facilidades": "Camerinos principales"
+        },
+        "accesibilidad": true
+    }
+]

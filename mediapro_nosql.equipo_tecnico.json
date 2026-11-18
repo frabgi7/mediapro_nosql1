@@ -1,0 +1,222 @@
+[
+    {
+        "_id": "EQ-001",
+        "categoria": "camara",
+        "marca": "ARRI",
+        "modelo": "Alexa Mini LF",
+        "caracteristicas_tecnicas": "Sensor Sensor 4.5K Large Format",
+        "fecha_adquisicion": {
+            "$date": "2023-05-10T00:00:00Z"
+        },
+        "valor": {
+            "$numberDecimal": "65000.00"
+        },
+        "mantenimiento": {
+            "seguro": "Seguro Global AXA",
+            "proximo": {
+                "$date": "2026-06-01T00:00:00Z"
+            }
+        },
+        "condicion": "optimo",
+        "estado": "disponible",
+        "numero_serie": "MP-EQ-2026-001"
+    },
+    {
+        "_id": "EQ-002",
+        "categoria": "iluminacion",
+        "marca": "Aputure",
+        "modelo": "LS 1200d Pro",
+        "caracteristicas_tecnicas": "Luz LED 1200W de alta potencia",
+        "fecha_adquisicion": {
+            "$date": "2024-01-15T00:00:00Z"
+        },
+        "valor": {
+            "$numberDecimal": "4200.00"
+        },
+        "mantenimiento": {
+            "seguro": "Seguro Sura",
+            "proximo": {
+                "$date": "2026-07-10T00:00:00Z"
+            }
+        },
+        "condicion": "optimo",
+        "estado": "disponible",
+        "numero_serie": "MP-EQ-2026-002"
+    },
+    {
+        "_id": "EQ-003",
+        "categoria": "sonido",
+        "marca": "Sound Devices",
+        "modelo": "Scorpio 32",
+        "caracteristicas_tecnicas": "Grabador de 32 canales y 36 pistas",
+        "fecha_adquisicion": {
+            "$date": "2022-11-20T00:00:00Z"
+        },
+        "valor": {
+            "$numberDecimal": "11000.00"
+        },
+        "mantenimiento": {
+            "seguro": "Seguro Sura",
+            "proximo": {
+                "$date": "2026-05-15T00:00:00Z"
+            }
+        },
+        "condicion": "bueno",
+        "estado": "disponible",
+        "numero_serie": "MP-EQ-2026-003"
+    },
+    {
+        "_id": "EQ-004",
+        "categoria": "grip",
+        "marca": "Jib Arm",
+        "modelo": "Kupo KCP-950",
+        "caracteristicas_tecnicas": "Grua de camara telescópica 4m",
+        "fecha_adquisicion": {
+            "$date": "2021-08-05T00:00:00Z"
+        },
+        "valor": {
+            "$numberDecimal": "8500.00"
+        },
+        "mantenimiento": {
+            "seguro": "Seguro Zurich",
+            "proximo": {
+                "$date": "2026-04-20T00:00:00Z"
+            }
+        },
+        "condicion": "regular",
+        "estado": "reservado",
+        "numero_serie": "MP-EQ-2026-004"
+    },
+    {
+        "_id": "EQ-005",
+        "categoria": "camara",
+        "marca": "RED",
+        "modelo": "V-Raptor 8K",
+        "caracteristicas_tecnicas": "Sensor 8K VV Multi-Format",
+        "fecha_adquisicion": {
+            "$date": "2023-09-12T00:00:00Z"
+        },
+        "valor": {
+            "$numberDecimal": "4800.00"
+        },
+        "mantenimiento": {
+            "seguro": "Seguro AXA",
+            "proximo": {
+                "$date": "2026-08-11T00:00:00Z"
+            }
+        },
+        "condicion": "optimo",
+        "estado": "reservado",
+        "numero_serie": "MP-EQ-2026-005"
+    },
+    {
+        "_id": "EQ-006",
+        "categoria": "iluminacion",
+        "marca": "ARRI",
+        "modelo": "SkyPanel S60-C",
+        "caracteristicas_tecnicas": "Panel LED suave regulable",
+        "fecha_adquisicion": {
+            "$date": "2022-03-18T00:00:00Z"
+        },
+        "valor": {
+            "$numberDecimal": "6200.00"
+        },
+        "mantenimiento": {
+            "seguro": "Seguro Sura",
+            "proximo": {
+                "$date": "2026-09-01T00:00:00Z"
+            }
+        },
+        "condicion": "optimo",
+        "estado": "disponible",
+        "numero_serie": "MP-EQ-2026-006"
+    },
+    {
+        "_id": "EQ-007",
+        "categoria": "sonido",
+        "marca": "Sennheiser",
+        "modelo": "MKH 416",
+        "caracteristicas_tecnicas": "Microfono de cañon hipercardioide",
+        "fecha_adquisicion": {
+            "$date": "2020-02-14T00:00:00Z"
+        },
+        "valor": {
+            "$numberDecimal": "1200.00"
+        },
+        "mantenimiento": {
+            "seguro": "Seguro Sura",
+            "proximo": {
+                "$date": "2026-04-10T00:00:00Z"
+            }
+        },
+        "condicion": "bueno",
+        "estado": "disponible",
+        "numero_serie": "MP-EQ-2026-007"
+    },
+    {
+        "_id": "EQ-008",
+        "categoria": "grip",
+        "marca": "Ronin",
+        "modelo": "DJI RS 3 Pro",
+        "caracteristicas_tecnicas": "Gimbal estabilizador de 3 ejes",
+        "fecha_adquisicion": {
+            "$date": "2024-02-01T00:00:00Z"
+        },
+        "valor": {
+            "$numberDecimal": "1100.00"
+        },
+        "mantenimiento": {
+            "seguro": "Seguro DJI",
+            "proximo": {
+                "$date": "2026-10-05T00:00:00Z"
+            }
+        },
+        "condicion": "optimo",
+        "estado": "disponible",
+        "numero_serie": "MP-EQ-2026-008"
+    },
+    {
+        "_id": "EQ-009",
+        "categoria": "camara",
+        "marca": "Sony",
+        "modelo": "FX6 Cinema Line",
+        "caracteristicas_tecnicas": "Full Frame 4K DCI",
+        "fecha_adquisicion": {
+            "$date": "2023-01-25T00:00:00Z"
+        },
+        "valor": {
+            "$numberDecimal": "6000.00"
+        },
+        "mantenimiento": {
+            "seguro": "Seguro AXA",
+            "proximo": {
+                "$date": "2026-05-30T00:00:00Z"
+            }
+        },
+        "condicion": "optimo",
+        "estado": "disponible",
+        "numero_serie": "MP-EQ-2026-009"
+    },
+    {
+        "_id": "EQ-010",
+        "categoria": "iluminacion",
+        "marca": "Nanlite",
+        "modelo": "Pavotube II 30X",
+        "caracteristicas_tecnicas": "Tubo LED RGBWW 120cm",
+        "fecha_adquisicion": {
+            "$date": "2024-03-10T00:00:00Z"
+        },
+        "valor": {
+            "$numberDecimal": "800.00"
+        },
+        "mantenimiento": {
+            "seguro": "Seguro Sura",
+            "proximo": {
+                "$date": "2026-11-12T00:00:00Z"
+            }
+        },
+        "condicion": "optimo",
+        "estado": "reservado",
+        "numero_serie": "MP-EQ-2026-010"
+    }
+]
